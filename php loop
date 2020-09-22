@@ -1,0 +1,16 @@
+<?php
+$arr = ["456", "753", "812", "856", "999"];
+
+foreach($arr as $num)
+{
+
+if ($num % 2 == 0)
+{echo $num;
+echo "<br>\n";
+}
+
+
+
+}
+
+?>
