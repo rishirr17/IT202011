@@ -7,5 +7,6 @@ if (isset($_SESSION["user"]) && isset($_SESSION["user"]["email"])) {
 }
 ?>
     <p>Welcome, <?php echo $email; ?></p>
-<?php require(__DIR__ . "/partials/flash.php");y
+<?php require(__DIR__ . "/partials/flash.php");
+?>
 
